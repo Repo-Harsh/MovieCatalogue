@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: "MOVIE-INFO-SERVICE"
+    
+server:
+  port: 8081
+
+api.key: ${TMDB_API_KEY:0935eb7f767b7e1f0d5a8db1dd68c4e9}
